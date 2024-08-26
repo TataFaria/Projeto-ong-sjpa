@@ -1,0 +1,39 @@
+.adote p{
+    color: white;
+    width: 95%;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    background: #29B58F;
+    color: white;
+    margin-left: 450px;
+    margin-bottom: 80px;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    height: 50px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: #64c9ae;
+    transform: translate(-7px);
+    transition-duration: 0.8s;
+}
+
+.imagemCel{
+    margin-left: 650px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: auto;
+    margin-top: -450px;
+    margin-bottom: 50px;
+}
