@@ -1,5 +1,5 @@
 import styles from './Adote.module.css';
-import imagemCel from '../Imagens/imagemCel.svg'
+import imagemCelular from '../Imagens/imagemCelular.svg'
 
 function Adote () {
     
@@ -19,7 +19,7 @@ function Adote () {
                 Eu quero fazer parte
             </button>
          </div>  
-            <img src={imagemCel} alt="Imagens do celular" className={styles.imagemCel} height="400px"  /> 
+            <img src={imagemCelular} alt="Imagens do celular" className={styles.imagemCelular} height="450px"  /> 
         </div>
     )
 }
