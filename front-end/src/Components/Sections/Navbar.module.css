@@ -1,12 +1,11 @@
 .navbar {
   display: grid;
-  background-color: white;
   grid-auto-flow: column;
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
-  border-bottom: 2px solid black;
+  padding-top: 12px;
 }
 
 .navbar ul {
@@ -37,7 +36,13 @@
 }
 
 .imgLogo {
-  width: 277px;
-  height: 239px;
   align-items: center;
+  position: absolute;
+}
+
+.menu_container {
+  width: 95%;
+  background-color: white;
+  margin: auto;
+  border-radius: 200px;
 }

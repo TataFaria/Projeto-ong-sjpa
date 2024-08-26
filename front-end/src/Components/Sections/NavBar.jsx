@@ -8,27 +8,29 @@ import Logo from "../Imagens/logo.svg";
 function Navbar() {
   return (
     <div className={styles.navbar}>
-      <div className="imgLogo">
-        <img src={Logo} height="75px" />
+      <div className={styles.imgLogo}>
+        <img src={Logo} height="90px" />
       </div>
-      <ul>
-        <li>
-          <Nav.Link href="#SobreNós" className={styles.adoteLink}>
-            Sobre Nós
-          </Nav.Link>
-        </li>
-        <li>
-          <Nav.Link href="#Adote" className={styles.adoteLink}>
-            Adote
-          </Nav.Link>
-        </li>
-        <li>
-          <Nav.Link href="#Apadrinhe">Apadrinhe</Nav.Link>
-        </li>
-        <li>
-          <Nav.Link href="#SejaVoluntario">Seja Voluntário</Nav.Link>
-        </li>
-      </ul>
+      <div className={styles.menu_container}>
+        <ul>
+          <li>
+            <Nav.Link href="#SobreNós" className={styles.adoteLink}>
+              Sobre Nós
+            </Nav.Link>
+          </li>
+          <li>
+            <Nav.Link href="#Adote" className={styles.adoteLink}>
+              Adote
+            </Nav.Link>
+          </li>
+          <li>
+            <Nav.Link href="#Apadrinhe">Apadrinhe</Nav.Link>
+          </li>
+          <li>
+            <Nav.Link href="#SejaVoluntario">Seja Voluntário</Nav.Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
