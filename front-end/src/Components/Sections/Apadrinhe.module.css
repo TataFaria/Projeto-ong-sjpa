@@ -5,9 +5,10 @@
     margin: auto;
     margin-bottom: 10em;
     border-radius: 50px;
-    border: 1px solid white;
+    border: 0.2px solid rgba(218, 218, 218, 0.699);
     display: grid;
     grid-auto-flow: column;
+    box-shadow: 2px 5px 10px rgb(24, 24, 24);
 }
 
 
