@@ -1,3 +1,4 @@
+<<<<<<< HEAD:front-end/front-end/src/Components/Sections/SobreNos.module.css
 .SobreNos {
     background-color: #323232;
     height: 35rem;
@@ -28,10 +29,44 @@
     top: 55%;
     left: 50%;
     transform: translate(-90%, 0%);
+=======
+.SejaVoluntario p{
+>>>>>>> 495962f32ef7412feac108d3de78ff9f7fa290d0:front-end/src/Components/Sections/SejaVoluntario.module.css
     color: white;
-    text-align: left;
-    margin: 0;
-    font-size: 27px;
-    padding: 1rem;
+    width: 95%;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 25px;  
 }
 
+.btn{
+    background: #29B58F;
+    color: white;
+    margin-left: 450px;
+    margin-bottom: 80px;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    height: 50px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: #64c9ae;
+    transform: translate(-7px);
+    transition-duration: 0.8s;
+}
+
+.imagemCelular{
+    margin-left: 650px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: auto;
+    margin-top: -500px;
+    margin-bottom: 50px;
+}
