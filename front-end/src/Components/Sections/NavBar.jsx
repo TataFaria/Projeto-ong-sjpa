@@ -19,15 +19,15 @@ function Navbar() {
             </Nav.Link>
           </li>
           <li>
-            <Nav.Link href="#Adote" className={styles.adoteLink}>
-              Adote
+            <Nav.Link href="#Apadrinhe" className={styles.adoteLink}>
+              Apadrinhe
             </Nav.Link>
           </li>
           <li>
-            <Nav.Link href="#Apadrinhe">Apadrinhe</Nav.Link>
+            <Nav.Link href="#SejaVoluntario">Seja Voluntário</Nav.Link>
           </li>
           <li>
-            <Nav.Link href="#SejaVoluntario">Seja Voluntário</Nav.Link>
+            <Nav.Link href="#NossosPets">Nossos Pets</Nav.Link>
           </li>
         </ul>
       </div>
