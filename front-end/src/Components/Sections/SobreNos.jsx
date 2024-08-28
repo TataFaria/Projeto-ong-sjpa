@@ -12,7 +12,7 @@ function SobreNos() {
                 carinho.</p>
             </div>
         </div>
-    );
+    )
 }
 
 export default SobreNos;
